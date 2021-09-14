@@ -26,7 +26,7 @@ int main(void)
 	}
 	else
 	{
-		printf("표준입니다.\n\n");
+		printf("표준입니다.\n");
 	}
 
 
