@@ -1,0 +1,3 @@
+﻿  test.cpp
+C:\Users\USER\Desktop\Code\Code-vs-cpp\CODE-NAME-ZERO\project02\test.cpp(15,9): warning C4477: 'printf' : 서식 문자열 '%.2le'에 'double' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int'입니다.
+  project02.vcxproj -> C:\Users\USER\Desktop\Code\Code-vs-cpp\CODE-NAME-ZERO\project02\Debug\project02.exe
