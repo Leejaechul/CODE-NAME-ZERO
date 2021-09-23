@@ -4,16 +4,16 @@
 
 int main(void)
 {
-	int weight = 0;
-	double height = 0;
-	double dA = 0;
-	double dB = 0;
-	double dC = 0;
+	double weight;
+	double height;
+	double dA;
+	double dB;
+	double dC;
 	int res;
 	
 
 	printf("몸무게(kg)와 키(cm) 입력 :");
-	scanf("%d%lf", &weight, &height);
+	scanf("%lf%lf", &weight, &height);
 
 	dA = weight;
 	dB = height / 100;
