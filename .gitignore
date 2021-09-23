@@ -1,6 +1,6 @@
 # Prerequisites
 *.d
-*.opendb
+
 # Object files
 *.o
 *.ko
