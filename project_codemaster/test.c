@@ -1,18 +1,21 @@
 #include <stdio.h>
+#include <stdlib.h>
 
+double centi_to_meter(double dCm);
 int main(void)
 {
-	printf("Be happy\n");
-	printf("My friend\n");
-	printf("Cow\rw\a\n");
-
-	printf("%.0lf\n", 3.5);
-	printf("%.1lf\n", 3.45);
-	printf("%lf\n", 3.456);
-	printf("%d과 %d의 합은 %d입니다.\n", 10, 20, 10 + 20);
-	printf("wow\a\n");
-	printf("%o\n", 10000);
-	printf("%d\n", 100000);
+	double dCm = 0.0,dM = 0.0;
+	printf("값을 입력하시오(cm) :");
+	scanf("%lf", &dCm);
+	dM = centi_to_meter(dCm);
+	printf("입력한 값의 미터(m)값은 : %.2lfm", dM);
 
 	return 0;
+}
+
+double centi_to_meter(double dCm)
+{
+	double res;
+	res = dCm / 100.0;
+	return res;
 }

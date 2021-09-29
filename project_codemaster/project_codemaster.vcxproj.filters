@@ -18,13 +18,31 @@
     <ClCompile Include="main.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="test.c">
+    <ClCompile Include="구구단 코드.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="test1.c">
+    <ClCompile Include="bmi 계산 코드.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="10진수를 2진수로 출력.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="숫자로 달을 입력하면 영어단어로 보여주는 코드.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="별을 하나부터 한줄에 하나씩 증가시키는 코드.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="x모양으로 별을 그린 코드.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="master code 랜덤숫자뽑기.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="두실수의 평균 함수.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="test.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
