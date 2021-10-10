@@ -42,7 +42,13 @@
     <ClCompile Include="두실수의 평균 함수.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="test.c">
+    <ClCompile Include="매개변수,반환형 존재하는 단위변환 함수.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="입력-매개변수,출력-반환값.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1부터 정해진 정수의 모든 값 더하기.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
