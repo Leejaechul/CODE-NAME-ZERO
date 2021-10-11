@@ -22,6 +22,10 @@ int rec_func(int n) // rec_func 함수 정의
 {
 	total += n;
 	if (n == 1) return total; // 카운트 값이 1이되면 return
-	rec_func(n - 1); // 재귀함수의 카운트를 세며 카운트 값이 수식에 동시에 적용되도록 활용
+	else
+	{
+		rec_func(n - 1); 
+		return total;
+	} // 재귀함수의 카운트를 세며 카운트 값이 수식에 동시에 적용되도록 활용
 	
 }

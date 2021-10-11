@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.c">
+    <ClCompile Include="지니씨가 풀어준 소수출력 프로그램.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="구구단 코드.c">
@@ -49,6 +49,9 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="1부터 정해진 정수의 모든 값 더하기.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="교재 201p 재귀함수의 호출횟수 조절 코드.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
