@@ -2,7 +2,6 @@
 #include <stdlib.h>
 
 int rec_func(int n); //rec_func 함수 선언
-int total = 0; // total 전역변수 선언
 
 int main(void)
 {
@@ -20,11 +19,11 @@ int main(void)
 
 int rec_func(int n) // rec_func 함수 정의
 {
-	total += n;
-	if (n == 1) return total; // 카운트 값이 1이되면 return
+	int total = 0; // 모든 정수를 더해줄 변수 설정
+	if (n == 1) return 1; // 카운트 값이 1이되면 1로 return
 	else
 	{
-		rec_func(n - 1); 
+		total = n + rec_func(n - 1); 
 		return total;
 	} // 재귀함수의 카운트를 세며 카운트 값이 수식에 동시에 적용되도록 활용
 	

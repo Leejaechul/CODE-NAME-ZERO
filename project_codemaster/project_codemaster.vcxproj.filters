@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="지니씨가 풀어준 소수출력 프로그램.c">
+    <ClCompile Include="소수출력 프로그램.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="구구단 코드.c">
@@ -36,7 +36,7 @@
     <ClCompile Include="x모양으로 별을 그린 코드.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="master code 랜덤숫자뽑기.c">
+    <ClCompile Include="master code 랜덤숫자뽑기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="두실수의 평균 함수.c">
@@ -52,6 +52,12 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="교재 201p 재귀함수의 호출횟수 조절 코드.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="재귀호출 함수의 활용.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="test.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
