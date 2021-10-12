@@ -1,6 +1,2 @@
 ﻿  main.c
-C:\Users\USER\Desktop\Code\Code-vs-cpp\CODE-NAME-ZERO\4nd project file\project4\main.c(12,8): warning C4477: 'scanf' : 서식 문자열 '%d'에 'int *' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'double *'입니다.
-C:\Users\USER\Desktop\Code\Code-vs-cpp\CODE-NAME-ZERO\4nd project file\project4\main.c(12,8): warning C4477: 'scanf' : 서식 문자열 '%d'에 'int *' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'double *'입니다.
-C:\Users\USER\Desktop\Code\Code-vs-cpp\CODE-NAME-ZERO\4nd project file\project4\main.c(14,8): warning C4477: 'scanf' : 서식 문자열 '%d'에 'int *' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'double *'입니다.
-C:\Users\USER\Desktop\Code\Code-vs-cpp\CODE-NAME-ZERO\4nd project file\project4\main.c(14,8): warning C4477: 'scanf' : 서식 문자열 '%d'에 'int *' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'double *'입니다.
   project4.vcxproj -> C:\Users\USER\Desktop\Code\Code-vs-cpp\CODE-NAME-ZERO\4nd project file\project4\Debug\project4.exe
