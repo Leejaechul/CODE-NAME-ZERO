@@ -3,7 +3,7 @@
 #include <time.h>
 #include <stdbool.h>
 
-#define END_CONDITION 0
+#define END_CONDITION 0 //define 으로 숫자에 의미 부여
 
 void TimeRandomSeed();
 unsigned int nTimeSeedValue(void);
@@ -18,15 +18,15 @@ int main(void)
 	while (true)
 	{
 		
-		printf("원하는 범위의 무작위 수를 생성하려면 범위 + 1 의 정수값을 입력하시오 : ");
+		printf("원하는 범위의 무작위 수를 생성하려면 범위 + 1 의 정수값을 입력하시오 : "); // 범위를 입력할 때 실수하지 않도록 설명 추가
 		scanf_s("%d", &nRange);
-		if (nRange == END_CONDITION)
+		if (nRange == END_CONDITION) // 0은 난수 범위 자체가 0부터 시작하기 때문에 범위 값에서는 필요없는 값이라 생각하여 프로그램 종료 값으로 설정
 		{
-			printf("난수 생성 프로그램 종료\n");
+			printf("\n난수 생성 프로그램 종료\n");
 			print_line();
 			return;
 		}
-		else if (nRange < END_CONDITION){
+		else if (nRange < END_CONDITION){ // 난수 범위가 0부터 시작하기 때문에 0 미만의 값 입력시 재입력 강조 코드 추가
 			printf("\n 0 이상의 정수만 입력 가능합니다.\n 조건에 맞는 정수값을 입력하세요\n");
 			print_line();
 			continue;
@@ -77,7 +77,7 @@ unsigned int nGenRandomNum(nRange) // n까지의 범위만큼 랜덤숫자를 뽑고 싶다면 n+
 	return nRandomNum;
 }
 
-void print_line()
+void print_line() // 프로그램 리딩 시 편한 시야를 위해 line 함수 추가
 {
 	printf("--------------------------------------------------------------------------------");
 }
