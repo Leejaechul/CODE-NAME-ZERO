@@ -21,7 +21,7 @@ unsigned int GenRandNum(unsigned int nRange)
 {
 	unsigned int nRes = 0;
 	unsigned int nNum = rand();
-	nRes = ((unsigned int)(nNum) % (nRange));
+	nRes = (unsigned int)nNum % (nRange);
 	return nRes;
 }
 

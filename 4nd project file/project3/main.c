@@ -6,7 +6,7 @@ int nFiboSequence(int nRamdomNum);
 int main(void)
 {
 	int nRandomNum = 0, i = 0, count = 0; //랜덤넘버, for구문 i 값, 횟수를 세줄 변수 선언 및 초기화
-	do {								 // 0 이하의 수 입력시 재입력 반복문 설정
+	do {								 // 0 이하의 정수 값 입력시 재입력 반복문 설정
 		printf("몇 번째 항까지 출력할까요? :");
 		scanf_s("%d", &nRandomNum);
 	} while (nRandomNum < 1);

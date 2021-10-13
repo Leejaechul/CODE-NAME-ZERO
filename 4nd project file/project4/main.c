@@ -23,7 +23,7 @@ double dEuclideanDistance(double X1, double Y1, double X2, double Y2)
 	double calculation = 0.0, res = 0.0, dXvalue = 0.0, dYvalue = 0.0;
 	dXvalue = (X1 - X2) * (X1 - X2);
 	dYvalue = (Y1 - Y2) * (Y1 - Y2);
-	calculation = dXvalue + dYvalue;
+	calculation = dXvalue + dYvalue; // 유클리디안 거리 공식 적용
 	res = sqrt(calculation); //제곱값 함수 호출
 	return res;
 }
