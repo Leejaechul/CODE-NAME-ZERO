@@ -3,6 +3,8 @@
 
 1주차~15주차 과제가 하위 폴더에 위치해 있습니다.
 
-project_codemaster folder = Folder for Textbook test and practice
+project_codemaster = Folder for Textbook test and practice
+
+RandomNumberCode_by_LJC = 랜덤 숫자 생성 프로그램 코딩 폴더
  
 감사합니다.
