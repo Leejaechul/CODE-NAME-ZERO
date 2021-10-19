@@ -36,7 +36,7 @@
     <ClCompile Include="x모양으로 별을 그린 코드.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="master code 랜덤숫자뽑기.cpp">
+    <ClCompile Include="master code 랜덤숫자뽑기%28윈도우즈에서 호완안됨%29.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="두실수의 평균 함수.c">

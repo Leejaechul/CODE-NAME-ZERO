@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main(void)
+int main(void) // 2 이상의 정수 입력시 2부터 입력한 정수까지의 모든 소수를 출력하는 프로그램
 {
 	int n_over2 = 0; //2 이상의 정수 변수의 초기화
 	do {
