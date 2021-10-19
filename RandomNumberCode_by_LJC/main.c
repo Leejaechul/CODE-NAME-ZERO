@@ -9,6 +9,7 @@ void TimeRandomSeed();
 unsigned int nTimeSeedValue(void);
 unsigned int nGenRandomNum(nRange);
 void print_line(void);
+unsigned int Function_Time();
 
 int main(void)
 {
@@ -18,7 +19,7 @@ int main(void)
 	while (true)
 	{
 		
-		printf("원하는 범위의 무작위 수를 생성하려면 범위 + 1 의 정수값을 입력하시오 : "); // 범위를 입력할 때 실수하지 않도록 설명 추가
+		printf("원하는 범위의 무작위 수를 생성하려면 범위 + 1 의 양수값을 입력하시오\n프로그램을 종료하고 싶다면 0을 입력하세요\n"); // 범위를 입력할 때 실수하지 않도록 설명 추가
 		scanf_s("%d", &nRange);
 		if (nRange == END_CONDITION) // 0은 난수 범위 자체가 0부터 시작하기 때문에 범위 값에서는 필요없는 값이라 생각하여 프로그램 종료 값으로 설정
 		{
@@ -46,15 +47,22 @@ int main(void)
 
 void TimeRandomSeed() // 컴퓨터 내부에서 시간정보로 시드를 부여하기 때문에 매개변수와 반환값이 필요없다.
 {
-	srand((unsigned int)time(NULL)); // srand 함수의 시드값을 항상 변하는 시간 값으로 준다
+	srand(Function_Time()); // srand 함수의 시드값을 항상 변하는 시간 값으로 준다
 	return;							 // time 함수는 1970년 1월 1일 이후 경과된 시간을 초단위로 반환하는 함수 => 절대 같은수가 나올수 없는 seed 값이다.
+}
+
+unsigned int Function_Time()
+{
+	int res = 0;
+	res = (unsigned int)time(NULL);
+	return res;
 }
 
 unsigned int nTimeSeedValue(void) //현재 시간 시드값이 얼마인지 보여주는 time 함수
 {
 	unsigned int tnum = 0, TimeInformation = 0, TimeSecond = 0, TimeMinute = 0, TimeHour = 0, TimeDay = 0, TimeYear = 0;
-	tnum = (unsigned int)(time)(NULL);
-	TimeInformation = (unsigned int)(time)(NULL); // time 함수의 시드값을 1970년 1월 1일부터 얼마나 지났는지 보여주는 수식 추가
+	tnum = Function_Time();
+	TimeInformation = Function_Time(); // time 함수의 시드값을 1970년 1월 1일부터 얼마나 지났는지 보여주는 수식 추가
 	TimeYear = TimeInformation / 31536000;
 	TimeInformation %= 31536000;
 	TimeDay = TimeInformation / 86400;
